@@ -2,13 +2,16 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin master;
+# git pull origin master;
 
-ln -sf .functions ~/.functions
-ln -sf .aliases ~/.aliases
-ln -sf .zshrc ~/.zshrc
-ln -sf .bashrc ~/.bashrc
-ln -sf .bash_profile ~/.bash_profile
+a=$PWD
+echo $a/.functions
+
+ln -sf $PWD/.functions ~/.functions
+ln -sf $PWD/.aliases ~/.aliases
+ln -sf $PWD/.zshrc ~/.zshrc
+ln -sf $PWD/.bashrc ~/.bashrc
+ln -sf $PWD/.bash_profile ~/.bash_profile
 
 # function doIt() {
 # 	rsync --exclude ".git/" \
