@@ -62,7 +62,6 @@ plugins=(git autojump)
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
 source $HOME/.functions
-source $HOME/.bashrc
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

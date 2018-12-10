@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-cd "$(dirname "${BASH_SOURCE}")";
-
-# git pull origin master;
-
-a=$PWD
-echo $a/.functions
+# cd "$(dirname "${BASH_SOURCE}")";
 
 ln -sf $PWD/.functions ~/.functions
 ln -sf $PWD/.aliases ~/.aliases
@@ -13,6 +8,7 @@ ln -sf $PWD/.zshrc ~/.zshrc
 ln -sf $PWD/.bashrc ~/.bashrc
 ln -sf $PWD/.bash_profile ~/.bash_profile
 
+zsh
 # function doIt() {
 # 	rsync --exclude ".git/" \
 # 		--exclude ".DS_Store" \
