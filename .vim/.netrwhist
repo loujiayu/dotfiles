@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/loujiayu/work/data'
+let g:netrw_dirhist_2='/Users/loujiayu/github/html5-boilerplate/dist'
+let g:netrw_dirhist_3='/Users/loujiayu/proj/vue-material-design'
+let g:netrw_dirhist_4='/Users/loujiayu/proj/blog/themes'
+let g:netrw_dirhist_5='/Users/loujiayu'
